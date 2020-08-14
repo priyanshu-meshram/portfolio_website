@@ -1,0 +1,35 @@
+.main {
+    padding-top: 260px;
+    font-size: 50px;
+    font-family: "lexend Tera", sans-serif;
+    text-align: center;
+}
+
+.underline {
+    padding-top: 40px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 90% 0.2em;
+    background-position: 70% 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+Button {
+    color: rebeccapurple
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap");
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");

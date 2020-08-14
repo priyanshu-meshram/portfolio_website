@@ -1,0 +1,66 @@
+.nav {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.nav .nav-content {
+    max-width: 900px;
+    padding: 0rem 3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.nav-item {
+    display: inline;
+    margin-left: 2rem;
+}
+
+.nav-item:active {
+    border-bottom: 1px green;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.aboutMe {
+    height: 130vh;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.contactMe {
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.projects {
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: salmon;
+}
+
+.resume {
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: purple;
+}
